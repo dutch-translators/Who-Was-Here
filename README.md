@@ -1,5 +1,5 @@
 # Who-Was-Here
-Dutch translation of the NV Who Was here extension by Anv@r.all
+Dutch translation of the NV Who Was here extension by Anvar
 
 Installatie
 ===========
