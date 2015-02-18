@@ -4,6 +4,7 @@
 * @package - NV "who was here?"
 * @copyright (c) nickvergessen - http://www.flying-bits.org/
 * @license http://opensource.org/licenses/gpl-2.0.php GNU General Public License v2
+* [Dutch] translated by Dutch Translators (https://github.com/dutch-translators)
 *
 */
 if (!defined('IN_PHPBB'))
@@ -24,60 +25,60 @@ else if (!isset($phpbb_root_path))
 }
 
 $lang = array_merge($lang, array(
-	'WWH_CONFIG'				=> 'Configurate "Who was here?"',
-	'WWH_TITLE'					=> 'Who was here?',
+	'WWH_CONFIG'				=> 'Configureer "Wie Was Hier?"',
+	'WWH_TITLE'					=> 'Wie Was Hier?',
 
-	'WWH_DISP_SET'				=> 'Display settings',
-	'WWH_DISP_BOTS'				=> 'Show bots',
-	'WWH_DISP_BOTS_EXP'			=> 'Some user might wonder what bots are and fear them.',
-	'WWH_DISP_GUESTS'			=> 'Show guests',
-	'WWH_DISP_GUESTS_EXP'		=> 'Display guests on the counter?',
-	'WWH_DISP_HIDDEN'			=> 'Show hidden users',
-	'WWH_DISP_HIDDEN_EXP'		=> 'Should hidden users be displayed in the list? (permission necessary)',
-	'WWH_DISP_TIME'				=> 'Show time',
-	'WWH_DISP_TIME_FORMAT'		=> 'Timeformat',
-	'WWH_DISP_HOVER'			=> 'Display on hover',
-	'WWH_DISP_TIME_EXP'			=> 'All user see it or none. No special function for Admins.',
-	'WWH_DISP_IP'				=> 'Show user-ip',
-	'WWH_DISP_IP_EXP'			=> 'Just for the users with administrative permissions, like on the viewonline.php',
+	'WWH_DISP_SET'				=> 'Weergave instellingen',
+	'WWH_DISP_BOTS'				=> 'Bots weergeven',
+	'WWH_DISP_BOTS_EXP'			=> 'Sommige gebruikers vragen zich af was bots ijn en zouden er bang van kunnen zijn.',
+	'WWH_DISP_GUESTS'			=> 'Gasten weergeven',
+	'WWH_DISP_GUESTS_EXP'		=> 'Gasten laten zien in de teller?',
+	'WWH_DISP_HIDDEN'			=> 'Verborgen gebruikers weergeven',
+	'WWH_DISP_HIDDEN_EXP'		=> 'Vervorgen gebruikers laten zien in de lijst? (alleen als gebruikers er permissies voor hheb)',
+	'WWH_DISP_TIME'				=> 'Tijd weergeven',
+	'WWH_DISP_TIME_FORMAT'		=> 'Tijd-/datumformaat',
+	'WWH_DISP_HOVER'			=> 'Bij hover weergeven',
+	'WWH_DISP_TIME_EXP'			=> 'Alle gebruikers zien het of niemand. Geen speciale functie voor beheerders.',
+	'WWH_DISP_IP'				=> 'Gebruikers-IP weergeven',
+	'WWH_DISP_IP_EXP'			=> 'Alleen voor gebruikers met beheerderspermissies, net zoals de viewonline.php',
 
-	'WWH_INSTALLED'				=> 'Installed "Who was here?" MOD v%s',
+	'WWH_INSTALLED'				=> '"Wie Was Hier?" EXT v%s geïnstaleerd',
 
-	'WWH_RECORD'				=> 'Record',
-	'WWH_RECORD_EXP'			=> 'Display and save record',
-	'WWH_RECORD_TIMESTAMP'		=> 'Dateformat for the record',
-	'WWH_RESET'					=> 'Reset record',
-	'WWH_RESET_EXP'				=> 'Resets the time and counter of the who-was-here record.',
-	'WWH_RESET_TRUE'			=> 'If you submit this form,\nthe record will be reseted.',// \n is the beginning of a new line
+	'WWH_RECORD'				=> 'Gebruikersrecord',
+	'WWH_RECORD_EXP'			=> 'Gebruikersrecord laten zien en opslaan',
+	'WWH_RECORD_TIMESTAMP'		=> 'Tijd-/datumformaat voor het gebruikersrecord',
+	'WWH_RESET'					=> 'Gebruikersrecord resetten',
+	'WWH_RESET_EXP'				=> 'Reset de tijd en de teller van de wie-was-hier gebruikersrecord.',
+	'WWH_RESET_TRUE'			=> 'Als je dit formulier verstuurd,\nwordt het gebruikersrecord gereset.',// \n is the beginning of a new line
 									//no space after it
 
-	'WWH_SAVED_SETTINGS'		=> 'Configuration updated successfully.',
-	'WWH_SORT_BY'				=> 'Sort users by',
-	'WWH_SORT_BY_EXP'			=> 'In which order shall the user be displayed?',
-	'WWH_SORT_BY_0'				=> 'Username A -> Z',
-	'WWH_SORT_BY_1'				=> 'Username Z -> A',
-	'WWH_SORT_BY_2'				=> 'Time of visit ascending',
-	'WWH_SORT_BY_3'				=> 'Time of visit descending',
-	'WWH_SORT_BY_4'				=> 'User-ID ascending',
-	'WWH_SORT_BY_5'				=> 'User-ID descending',
+	'WWH_SAVED_SETTINGS'		=> 'Instellingen succesvol opgeslagen.',
+	'WWH_SORT_BY'				=> 'Sorteer gebruikers op',
+	'WWH_SORT_BY_EXP'			=> 'In welke volgorde wil je de gebruikers weergeven?',
+	'WWH_SORT_BY_0'				=> 'Gebruikersnaam A -> Z',
+	'WWH_SORT_BY_1'				=> 'Gebruikersnaam Z -> A',
+	'WWH_SORT_BY_2'				=> 'Tijd van bezoek oplopend',
+	'WWH_SORT_BY_3'				=> 'Tijd van bezoek aflopend',
+	'WWH_SORT_BY_4'				=> 'Gebruikers-id oplopend',
+	'WWH_SORT_BY_5'				=> 'Gebruikers-id aflopend',
 
-	'WWH_UPDATE_NEED'			=> 'Update the "Who was here?" MOD. Therefor run the <a style="font-weight: bold;" href="' . $phpbb_root_path . 'install/index.php">install/index.php</a>.<br />If you did this, you should delete the install/ directory.',
+	'WWH_UPDATE_NEED'			=> 'De "Wie Was Hier?" extensie updaten. Omdat te doen met je de <a style="font-weight: bold;" href="' . $phpbb_root_path . 'install/index.php">install/index.php</a>.<br /> uitvoeren. Nadat je dit gedaan hebt moet je de install/ map weer verwijderen.',
 
-	'WWH_VERSION'				=> 'Displaying users of ...',
-	'WWH_VERSION_EXP'			=> 'Displaying users of today, or of the period set in the next option.',
-	'WWH_VERSION1'				=> 'Today',
-	'WWH_VERSION2'				=> 'Period of time',
-	'WWH_VERSION2_EXP'			=> 'type 0, if you want to display the users of the last 24h',
-	'WWH_VERSION2_EXP2'			=> 'disabled, if you have choosen "today"',
-	'WWH_VERSION2_EXP3'			=> 'seconds',
+	'WWH_VERSION'				=> 'Gebruikers laten zien van ...',
+	'WWH_VERSION_EXP'			=> 'Gebruikers van vandaag laten zien, of de tijdsperiode die je hebt ingesteld in onderstaande optie.',
+	'WWH_VERSION1'				=> 'Vandaag',
+	'WWH_VERSION2'				=> 'Tijdsperiode',
+	'WWH_VERSION2_EXP'			=> 'Type 0, als je de gebruikers van de afgelopen 24-uur wilt laten zien',
+	'WWH_VERSION2_EXP2'			=> 'uitgeschakeld, als je hebt gekozen voor "vandaag"',
+	'WWH_VERSION2_EXP3'			=> 'seconden',
 
-	'WWH_MOD'					=> '"Who was here?" MOD',
-	'INSTALL_WWH_MOD'			=> 'Install "Who was here?" MOD',
-	'INSTALL_WWH_MOD_CONFIRM'	=> 'Are you sure you want to install the "Who was here?" MOD?',
-	'UPDATE_WWH_MOD'			=> 'Update "Who was here?" MOD',
-	'UPDATE_WWH_MOD_CONFIRM'	=> 'Are you sure you want to update the "Who was here?" MOD?',
-	'UNINSTALL_WWH_MOD'			=> 'Uninstall "Who was here?" MOD',
-	'UNINSTALL_WWH_MOD_CONFIRM'	=> 'Are you sure you want to uninstall the "Who was here?" MOD?',
+	'WWH_MOD'					=> '"Wie Was Hier?" EXT',
+	'INSTALL_WWH_MOD'			=> 'Installeer "Wie Was Hier?" EXT',
+	'INSTALL_WWH_MOD_CONFIRM'	=> 'Weet je zeker dat je de "Wie Was Hier?" extensie wilt installeren?',
+	'UPDATE_WWH_MOD'			=> '"Wie Was Hier?" EXT updaten',
+	'UPDATE_WWH_MOD_CONFIRM'	=> 'Weet je zeker dat je de "Wie Was Hier?" extensie wilt updaten?',
+	'UNINSTALL_WWH_MOD'			=> 'Verwijder "Wie Was Hier?" EXT',
+	'UNINSTALL_WWH_MOD_CONFIRM'	=> 'Weet je zeker dat je de "Wie Was Hier?" extensie wilt verwijderen?',
 ));
 
 ?>
